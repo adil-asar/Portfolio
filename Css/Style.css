@@ -1,0 +1,296 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100&family=Oswald:wght@200&family=Roboto+Condensed:wght@300&family=Titillium+Web:wght@200&family=Updock&display=swap');
+
+  *{
+  
+  padding: 0;
+  margin: 0;
+  /* font-family: 'Titillium Web', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  .navbar_css{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    /* background-color: rgb(251, 254, 255); */
+    
+  }
+
+  .brand_css{
+    width: 90%;
+  }
+
+  .nav_item_css{
+    margin: 0.5rem;
+  }
+
+  .heading_one{
+    font-size: 4.2rem;
+    text-align: center;
+    font-weight: 900;
+    /* background: -webkit-linear-gradient(#5eca67, #F5CBA7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(
+      45deg,
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+.heading_one:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.heading_two{
+  font-size: 3rem;
+    font-weight: 900;
+    background-image: linear-gradient(
+      45deg,
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.heading_two:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.heading_three{
+  font-size: 2rem;
+  font-weight: 900;
+  background-image: linear-gradient(
+    45deg,
+    #CA4246 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #476098 83.333%, 
+    #A7489B 83.333%);
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.heading_three:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.heading_four{
+  font-size: 1.5rem;
+  margin-top: 1rem !important;
+  font-weight: 900;
+  background-image: linear-gradient(
+    45deg,
+    #CA4246 16.666%, 
+    #E16541 16.666%, 
+    #E16541 33.333%, 
+    #F18F43 33.333%, 
+    #F18F43 50%, 
+    #8B9862 50%, 
+    #8B9862 66.666%, 
+    #476098 66.666%, 
+    #476098 83.333%, 
+    #A7489B 83.333%);
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+.heading_four:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+
+.small_text{
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+  /* text_animation */
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 650%;
+  }
+  40% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 100%;
+  }
+}
+
+
+
+  .buttons_home{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+  }
+
+  .resume_btn{
+    font-size: 1.4rem !important;
+    padding: .5rem 2rem !important;
+    letter-spacing: .1rem !important;
+    font-weight: bold !important;
+    background-color: #E16541 !important ;
+    color: white !important;
+  }
+  .resume_btn:hover{
+    color: #E16541!important;
+    background-color: white!important ;
+    border: 2px solid #E16541 !important;
+  }
+
+  .project_btn{
+    font-size: 1.4rem !important;
+    padding: .5rem 2rem !important;
+    letter-spacing: .1rem !important;
+    font-weight: bold !important;
+    color: #E16541 !important;
+    background-color: white!important ;
+    border: 2px solid #E16541 !important;
+    
+  }
+.project_btn:hover{
+  background-color: #E16541 !important ;
+    color: white !important;
+}
+
+.image_home{
+  text-align: center;
+  
+}
+.image_css{
+  width: 75%;
+  border-radius: 1.5rem;
+  margin: 2rem 0;
+}
+
+.about_section{
+padding: 5rem 0;
+text-align: center;
+}
+
+.paragraph{
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 0;
+}
+  
+.social_icons_css{
+  display: flex;
+  margin-top: 2.5rem  !important;
+  justify-content: space-around;
+}
+
+.social_link{
+font-size: 1.5rem;
+/* background: -webkit-linear-gradient(#5eca67, #e4db89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(
+      45deg,
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+background-size: 100%;
+background-repeat: repeat;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+.social_link:hover{
+  animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+.cv_section{
+ border-radius: 1rem;
+}
+
+.cv_btn{
+  font-size: 1.4rem !important;
+    padding: 0.5rem !important;
+height: 3rem !important;
+    padding-bottom: 0rem !important;
+    font-weight: bold !important;
+    background-color:#F18F43  !important ;
+    color: white !important;
+    letter-spacing: 1px !important;
+}
+
+.experience{
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+}
+.exp_text{
+  text-align: justify;
+}
+
+.skills_icons{
+  font-size: 3rem;
+  /* background: -webkit-linear-gradient(#5eca67, #e4db89);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
+      background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+  }
+  .skills_icons:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+  }
